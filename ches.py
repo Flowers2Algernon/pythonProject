@@ -11,3 +11,7 @@ print('middle value in data:', data[30,20])
 print('last value in data:', data[-1,-1])
 print(data[5:10,0:10])
 print("---")
+# we don't have to include the upper and lower bounds in the slice
+small = data[:3,36:]
+print(small)
+print(small.shape)
