@@ -15,3 +15,4 @@ print("---")
 small = data[:3,36:]
 print(small)
 print(small.shape)
+print(np.mean(data))
