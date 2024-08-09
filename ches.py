@@ -16,3 +16,7 @@ small = data[:3,36:]
 print(small)
 print(small.shape)
 print(np.mean(data))
+maxval, minval, stdval = np.amax(data),np.amin(data),np.std(data)
+print('maximum inflammation:', maxval)
+print('minimum inflammation:', minval)
+print('standard deviation:', stdval)
